@@ -131,7 +131,7 @@ app.post('/zdg-message', [
     });
     });
   }
-  else if (numberDDI === "55" && parseInt(numberDDD) <= 30) {
+  else if (numberDDI === "55" && parseInt(numberDDD) <= 99) {
     const numberZDG = "55" + numberDDD + "9" + numberUser + "@c.us";
     client.sendMessage(numberZDG, message).then(response => {
     res.status(200).json({
