@@ -13,6 +13,9 @@ Conheça o canal da Comunidade ZDG:
 - cd comunidadezdg
 - Rodar `npm install`
 - Rodar `npm start`
+- Para rodar em segundo plano:
+- Rodar `sudo npm install -g pm2`
+- Rodar `pm2 start botzdg.js`
 - Abrir o browser no endereço `http://localhost:8000`
 - Ler o QRCode na tela
 
