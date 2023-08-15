@@ -15,7 +15,7 @@
         $curl = curl_init();
 
         curl_setopt_array($curl, array(
-            CURLOPT_URL => 'http://192.168.1.28:8000/zdg-message',
+            CURLOPT_URL => 'http://192.168.5.178:8000/zdg-message',
             CURLOPT_RETURNTRANSFER => true,
             CURLOPT_ENCODING => '',
             CURLOPT_MAXREDIRS => 10,

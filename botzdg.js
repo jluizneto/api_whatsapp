@@ -265,6 +265,8 @@ client.on('message', async msg => {
 
   if (msg.from.includes("@g.us")) return null;
 
+  msg.reply(nomeContato);
+  msg.reply("teste");
 
 });
 
